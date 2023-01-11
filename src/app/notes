@@ -1,0 +1,7 @@
+                              angular
+
+              basic commands
+
+              1.create aproject-ng new project name
+              2.create a cmponent- ng g c component name
+              3.Run-ng serve --open
