@@ -1,0 +1,19 @@
+<div class="row m-5">
+<div class="col-4">
+    </div>
+    <div style="background-color: aliceblue;" class="col-4 border p-3 text-center">
+        <h2 style="text-align:center;"><i class="fa-solid fa-building-columns"></i></h2>
+        <h3 class="text-center">My Bank</h3>
+        <!-- <h6>{{aim}}</h6> -->
+        <input  (change)="acnochange($event)" id="acno" placeholder=" Account no"  type="text" class="form-control mb-2">
+        <input  (change)="pwdchange($event)" id="pwd" placeholder="password"  type="password" class="form-control mb-2">
+        <div id="result"></div>
+        <button (click)="login()" class="btn btn-primary mt-3 mb-3 ">Login</button><br>
+        <a href="register.html">Register</a>
+    </div>
+    <br>
+    <div class="col-4"></div>
+
+</div>
+
+<app-register></app-register>
