@@ -26,11 +26,12 @@
         1)one way data binding (ts->html or html ->ts file)
 
             a)component to view
-                a.1 string interpolation-{{expression}}
-                a.2 property binding -[attribute_name]="property"
+                a.1) string interpolation-{{expression}}
+                a.2) property binding -[attribute_name]="property"
 
             b)view to component
-                 b.1 event binding - (event_name)="function name"
-                 b.2 event binding using $event - (event_name)="function name($event)"
+                 b.1) event binding - (event_name)="function name"
+                 b.2) event binding using $event - (event_name)="function name($event)"
+                 
                         
            
